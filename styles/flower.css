@@ -1,4 +1,6 @@
-/* google font styles */
+/*-------------------------
+google font styles 
+--------------------------*/
 body {
     font-family: 'Lato',
         sans-serif;
@@ -6,7 +8,9 @@ body {
         sans-serif;
 }
 
-/* common styles */
+/*------------------------
+ common styles
+ ------------------------*/
 * {
     margin: 0;
 }
@@ -46,9 +50,13 @@ span {
 }
 
 
-/* header styles */
+/*-----------------------
+ header styles 
+ ------------------------*/
 
-/* nav styles */
+/*-------------------------
+ nav styles
+---------------------------*/
 nav {
     display: flex;
     align-items: center;
@@ -83,7 +91,9 @@ nav li a {
     font-size: 20px;
 }
 
-/* banner styles */
+/*-------------------------
+ banner styles 
+ -------------------------*/
 .banner {
     display: flex;
     align-items: center;
@@ -100,7 +110,9 @@ nav li a {
     margin-bottom: 32px;
 }
 
-/* featured flowers styles */
+/*-----------------------------
+ featured flowers styles 
+ -----------------------------*/
 .featured-flower {
     display: flex;
     align-items: center;
@@ -136,7 +148,9 @@ nav li a {
     font-weight: 700;
 }
 
-/* hot deal section styles */
+/*---------------------------------
+ hot deal section styles 
+ ----------------------------------*/
 .hot-deal {
     display: flex;
     align-items: center;
@@ -152,7 +166,9 @@ nav li a {
     text-align: center;
 }
 
-/* instagram section styles */
+/*---------------------------------
+ instagram section styles
+ -------------------------------- */
 .instagram {
     margin-bottom: 100px;
 }
@@ -161,7 +177,9 @@ nav li a {
     margin: 48px 25px 25px;
 }
 
-/* latest deals styles */
+/*-----------------------------
+ latest deals styles
+ ----------------------------- */
 .latest-deals {
     background-image: url('../Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
@@ -183,7 +201,9 @@ nav li a {
     margin-right: 16px;
 }
 
-/* footer styles */
+/*--------------------------
+ footer styles
+ --------------------------*/
 footer {
     background-color: #111010;
     text-align: center;
