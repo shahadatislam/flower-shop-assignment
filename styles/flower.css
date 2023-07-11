@@ -192,17 +192,40 @@ nav li a {
     margin-bottom: 120px;
 }
 
-.latest-deals input[type="text"] {
+.latest-deals input[type="text"],
+.location-search input[type="text"] {
     border-radius: 8px;
     background-color: #FFF;
     width: 700px;
     height: 64px;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     padding: 0 22px;
     border: 0;
     margin-right: 16px;
+}
+
+/*-----------------------
+ our location styles
+ ------------------------- */
+
+.shop-location {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+
+.shop-location img {
+    border-radius: 8px;
+    height: 500px;
+}
+
+.btn-location {
+    padding: 20px;
 }
 
 /*--------------------------
