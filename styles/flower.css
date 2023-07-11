@@ -65,6 +65,10 @@ nav {
     background-color: black;
 }
 
+nav img {
+    width: 38px;
+}
+
 .nav-title {
     color: whitesmoke;
 }
