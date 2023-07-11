@@ -105,3 +105,26 @@ span {
     border: 0;
     margin-right: 16px;
 }
+
+/* footer styles */
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 128px 640px;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
