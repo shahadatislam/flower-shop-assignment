@@ -1,0 +1,83 @@
+/* google font styles */
+body {
+    font-family: 'Lato',
+        sans-serif;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+/* common styles */
+.container {
+    text-align: center;
+}
+
+.title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+span {
+    color: #E55473;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    margin-top: 32px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* header styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0 240px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+/* hot deal section styles */
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 100px 400px;
+    margin: 100px 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-content {
+    text-align: center;
+}
+
+/* instagram section styles */
+.instagram {
+    margin-bottom: 100px;
+}
+
+.instagram-photo img {
+    margin: 48px 25px 25px;
+}
