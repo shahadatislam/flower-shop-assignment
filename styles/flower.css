@@ -9,6 +9,7 @@ body {
 /* common styles */
 .container {
     text-align: center;
+    margin: 0 300px;
 }
 
 .title {
@@ -79,5 +80,28 @@ span {
 }
 
 .instagram-photo img {
+    justify-content: space-between;
     margin: 48px 25px 25px;
+}
+
+/* latest deals styles */
+.latest-deals {
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 287px;
+    margin-bottom: 120px;
+}
+
+.latest-deals input[type="text"] {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 22px;
+    border: 0;
+    margin-right: 16px;
 }
