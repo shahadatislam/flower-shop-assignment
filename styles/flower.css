@@ -7,6 +7,10 @@ body {
 }
 
 /* common styles */
+* {
+    margin: 0;
+}
+
 .container {
     max-width: 1600px;
     text-align: center;
