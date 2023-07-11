@@ -194,10 +194,23 @@ footer {
     color: white;
 }
 
+.social-link {
+    margin: 20px;
+}
+
+.social-link a img {
+    margin-right: 10px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 300px;
+    background-color: whitesmoke;
+}
+
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 small {
