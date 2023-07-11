@@ -47,12 +47,49 @@ span {
 
 
 /* header styles */
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav-title {
+    color: whitesmoke;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #E55473;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 20px;
+}
+
+/* banner styles */
 .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
-    background: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     padding: 50px 240px 0 240px;
 }
 
@@ -81,13 +118,13 @@ span {
 .featured-flower-column-2 {
     padding: 117px 47px 51px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background-color: rgba(5, 151, 160, 0.15);
 }
 
 .featured-flower-column-3 {
     padding: 67px 75px 0;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    background-color: rgba(71, 125, 17, 0.15);
 }
 
 .featured-flower-link {
@@ -108,7 +145,7 @@ span {
     padding: 100px 400px;
     margin: 100px 0;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.05);
 }
 
 .hot-deal-content {
@@ -135,7 +172,7 @@ span {
 
 .latest-deals input[type="text"] {
     border-radius: 8px;
-    background: #FFF;
+    background-color: #FFF;
     width: 700px;
     height: 64px;
     color: rgba(39, 39, 39, 0.60);
